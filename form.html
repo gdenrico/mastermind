@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+       <meta charset="utf-8">
+       <link rel="stylesheet" type="text/css" href="styles.css">
+        <header>
+            <nav></nav>
+        </header>
+<body>
+<h1> Compila il form</h1>
+<h1> ↓&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ↓</h1>
+<div class="formpage">
+    <div class="nome">Nome</div> 
+    <form>
+        <input type="text" id="fNome" name="fNome" required><br>
+    </form>
+   <br>
+<div class="nome">Cognome</div>
+    
+        <input type="text" id="fCognome" name="fCognome" required><br>
+    
+    <br>
+<div class="nome">Data di nascita</div>     
+    
+        <input type="date" id="fDatan" name="fDatan" required><br>
+    
+    <br>
+    
+    <div class="nome">Luogo di nascita</div>
+        <select id="cittapaese" name="cittapaese">
+        <option value="taranto">Taranto</option>
+        <option value="bari">Bari</option>
+        <option value="lecce">Lecce</option>
+        <option value="brindisi">Brindisi</option>
+</select>
+      
+        <br>
+        <br>
+      <div class="nome">Email</div>
+      
+        <input type="email" id="fEmail" name="fEmail" placeholder="mariorossi@email.it" required><br>
+    
+    
+    <br>
+    <div class="nome">Telefono</div>
+    
+        
+        <input type="tel" id="fTel" name="fTel" placeholder="39-1234567890" pattern="[0-9]{2}-[0-9]{10}"  required><br>
+    
+     
+    
+    <br>
+    <input type="file">
+    
+    <br>
+    <br>
+    <br>
+
+
+
+      
+        <input type="button" value="Invia la tua candidatura" onclick="msg()">
+      
+    </form>
+      <script>
+      function msg() {
+        alert("Candidatura inviata correttamente!");
+      }
+      </script>
+      
+</div>
+
+
+</body>
+
+        <footer>
+
+        </footer>
+</html>
