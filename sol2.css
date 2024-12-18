@@ -1,0 +1,29 @@
+#contenitore {
+       font-style: normal;
+       justify-content:space-around;
+       padding-left:10px;
+       margin:10px;
+       background-color:yellow;
+       width:fit-content;
+       height:fit-content;
+       border-radius:15px;
+   }
+
+#formcandidatura label {
+           margin-right:20px;
+       }
+
+
+   #bottonenascondi
+   {margin-bottom: 20px;}
+   
+   /* Transizione di fade-in per il sotto-menu */
+   @keyframes fadeIn {
+       from {
+           opacity: 0;
+       }
+       to {
+           opacity: 1;
+       }
+   }
+   

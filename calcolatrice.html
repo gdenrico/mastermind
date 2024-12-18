@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+
+    <title>Document</title>
+    <script>
+        function sommaNumeri() {
+            // Preleva i valori dai campi del form
+            let num1 = document.getElementById('fnumero1').value;
+            let num2 = document.getElementById('fnumero2').value;
+            let num3 = document.getElementById('fnumero3').value;
+            let num4 = document.getElementById('fnumero4').value;
+    
+            // Converte i valori in numeri
+            let numero1 = parseFloat(num1); // usa parseInt per interi
+            let numero2 = parseFloat(num2); // usa parseFloat per numeri con decimali
+            let numero3 = parseFloat(num3);
+            let numero4 = parseFloat(num4);
+    
+            // Calcola la somma
+            let somma = numero1 + numero2 + numero3 + numero4;
+    
+            // Mostra il risultato nella pagina
+            document.getElementById('risultato').innerHTML = 'La somma è: ' + somma;
+        }
+    </script>
+    
+</head>
+<body>
+    <form>
+        <label for="fnumero1">Numero 1:</label>
+        <input type="text" id="fnumero1" name="fnumero1" required>
+        <br>
+        <label for="fnumero2">Numero 2:</label>
+        <input type="text" id="fnumero2" name="fnumero2" required>
+        <br>
+        <label for="fnumero3">Numero 3:</label>
+        <input type="text" id="fnumero3" name="fnumero2" required>
+        <br>
+        <label for="fnumero4">Numero 4:</label>
+        <input type="text" id="fnumero4" name="fnumero4" required>
+        <br>
+   </form>
+  
+   <button type="button" onclick="sommaNumeri()">Calcola Somma</button>
+
+
+<h2 id="risultato"></h2>
+</body>
+</html>

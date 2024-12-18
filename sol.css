@@ -1,0 +1,60 @@
+
+body{
+    font-size:12px;
+    color: white;
+}
+#mioheader {
+    
+    width:500px;
+    height:200px;
+    background-color: yellow;
+}
+nav { 
+    font-size:12px;
+    margin:auto;
+    width:490px;
+    height:100px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+}
+
+#contenitore {
+    display:flex;
+    justify-content:space-around;
+    background-color:#f8dd4c;
+    width:500px;
+    height:fit-content;
+    border-radius:5px;
+}
+#primo{
+        border: 2px solid;
+        width:120px;
+        height:fit-content;
+        margin:15px;
+        text-align:center;
+        background-color: darkgreen;
+      }
+
+
+#secondo{
+    border: 2px solid;
+    width:120px;
+    height:fit-content;
+    margin:15px;
+    text-align:center;
+    background-color: darkorange;
+}
+#terzo{
+    border: 2px solid;
+    width:120px;
+    height:fit-content;
+    margin:15px;
+    text-align:center;
+    background-color:darkblue;
+}
+
+button{
+    margin-top:15px;
+  }
