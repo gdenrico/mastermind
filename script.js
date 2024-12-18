@@ -1,4 +1,3 @@
-<script>
 function sommaNumeri() {
     // Preleva i valori dai campi del form
     var num1 = document.getElementById('fnumero1').value;
@@ -18,4 +17,3 @@ function sommaNumeri() {
     // Mostra il risultato nella pagina
     document.getElementById('risultato').innerHTML = 'La somma è: ' + somma;
 }
-</script>
